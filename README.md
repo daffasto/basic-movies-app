@@ -1,16 +1,25 @@
-# React + Vite
+# 🎬 Basic Movies App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movies web app that integrates the TMDB API to display popular, top rated, now playing, and upcoming movies.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Live App](https://daffa-movies-app.netlify.app/)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse movies by category — Popular, Top Rated, Now Playing, Upcoming
+- Search movies by title in real time
+- View detailed information for each movie including rating, release date, runtime, and genres
+- Clean Netflix-inspired dark UI
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Tech | Purpose |
+|---|---|
+| React | UI library |
+| Vite | Build tool |
+| Axios | API calls |
+| React Router | Client-side routing |
+| TMDB API | Movie data source |
+| Netlify | Deployment |
